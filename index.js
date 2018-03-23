@@ -11,10 +11,16 @@ function setCart(c) {
 
 function addToCart(item) {
  // write your code here
+ cart.push(item);
+ return cart;
 }
 
 function viewCart() {
   // write your code here
+  let i = 0;
+  while (i < cart.length) {
+    i++;
+  }
 }
 
 function total() {
